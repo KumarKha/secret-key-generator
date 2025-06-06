@@ -48,16 +48,5 @@ def main():
 
   		
 if __name__ == "__main__":
-	# print("KEY GENERATE")
-	# key_len = input("Enter desired key lenght in bytes (default 32): ")
 
-	# try:
-	# 	key_len = int(key_len) if key_len.strip() else 32
-	# except ValueError:
-	# 	print("Invalid input. Using default length (32)")
-	# 	key_len = 32
-
-	# secret_key = generate_secret_key(key_len)
-
-	# print(f"\nYour Secret Key: \n\n{secret_key}")
 	main()		
